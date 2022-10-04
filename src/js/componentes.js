@@ -83,7 +83,7 @@ ulFiltros.addEventListener('click', (event) => {
 	}
 
 	anchorFiltros.forEach((event) => event.classList.remove('selected'));
-	// event.target.classList.add('selected');
+	event.target.classList.add('selected');
 
 	for (let elemento of divTodoList.children) {
 		// console.log('elemento', elemento);
